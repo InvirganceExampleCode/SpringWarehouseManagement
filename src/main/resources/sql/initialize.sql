@@ -26,7 +26,7 @@ create table if not exists tbl_stok (
     stok int not null
 );
 
-create sequence if not exists hibernate_sequence;
+create sequence if not exists hibernate_sequence start with 5;
 
 delete from tbl_barang where id in (1, 2);
 delete from tbl_stok where barang_id in (1, 2);
