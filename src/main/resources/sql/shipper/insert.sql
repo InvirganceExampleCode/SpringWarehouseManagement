@@ -1,0 +1,1 @@
+insert into tbl_shipper (id, code_shipper, nama) values (:id, :shortName, :name)
