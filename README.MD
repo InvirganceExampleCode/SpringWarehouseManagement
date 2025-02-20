@@ -2,6 +2,14 @@
 
 This is a warehouse management system built using Java Spring Boot and PostgreSQL. It allows users to manage their warehouse by adding, updating, and deleting items, as well as tracking the shipping in and out of the warehouse. The system also provides features for managing shippers.
 
+## Convirgance Conversion
+
+The codebase as [originally written](https://github.com/wanrif/warehouse-management-backend) by [@wanrif](https://github.com/wanrif/) used **JPA** and **Lombok** for ORM services. It was written as a near-ideal example of an ORM use case. This is a conversion of that code to **Convirgance** for purposes of demonstrating productivity gains.
+
+The resutling conversion drops the Java code from 22 classes down to 9 classes and from 351 lines of code to 257 lines of code. (LoC metrics are in a comparable NCSS form.)
+
+*This represents a* **59%** *drop in class files and* **35% drop** *in lines of code!*
+
 ## Features
 
 The following are the main features of this warehouse management system:
@@ -18,5 +26,4 @@ The following technologies were used to build this warehouse management system:
 - **Java Spring Boot**: A powerful framework for building web applications in Java.
 - **PostgreSQL**: A powerful open-source relational database management system.
 - **Maven**: A build automation tool for Java projects.
-- **JPA**: A Java specification for mapping Java objects to relational databases.
-- **Lombok**: A Java library that helps to reduce boilerplate code.
+- **Convirgance**: A SQL-based tool for database interaction and data tranformation.
