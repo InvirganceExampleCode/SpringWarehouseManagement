@@ -4,11 +4,13 @@ This is a warehouse management system built using Java Spring Boot and PostgreSQ
 
 ## Convirgance Conversion
 
-The codebase as [originally written](https://github.com/wanrif/warehouse-management-backend) by [@wanrif](https://github.com/wanrif/) used **JPA** and **Lombok** for ORM services. It was written as a near-ideal example of an ORM use case. This is a conversion of that code to **Convirgance** for purposes of demonstrating productivity gains.
+The codebase as [originally written](https://github.com/wanrif/warehouse-management-backend) by [@wanrif](https://github.com/wanrif/) uses **JPA** and **Lombok** for ORM services. It was written as a near-ideal example of an ORM use case. This is a conversion of that code to **Convirgance** for purposes of demonstrating productivity gains.
 
 The resutling conversion drops the Java code from 22 classes down to 9 classes and from 351 lines of code to 257 lines of code. (LoC metrics are in a comparable NCSS form.)
 
-*This represents a* **59%** *drop in class files and* **35% drop** *in lines of code!*
+*This represents a* **59% drop** *in class files and* **35% drop** *in lines of code!*
+
+In addition, the codebase received *transactional safety* in the conversion ensuring no partial commits. While this is a nice to have for an example project like this, it is a hard requirement for production applications. 
 
 ## Features
 
