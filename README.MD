@@ -29,3 +29,9 @@ The following technologies were used to build this warehouse management system:
 - **PostgreSQL**: A powerful open-source relational database management system.
 - **Maven**: A build automation tool for Java projects.
 - **Convirgance**: A SQL-based tool for database interaction and data tranformation.
+
+## Frontend
+
+A compatible front-end to test these services graphically can be found at: https://github.com/jbanes/warehouse-management-frontend/
+
+Note that this version of the front-end must be used as many of the services were translated to English. The linked project has been updated to English as well, making the codebases compatible.
